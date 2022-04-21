@@ -10,8 +10,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(basePackages="com.bank.Repositories")
 @EnableTransactionManagement
 @EntityScan(basePackages="com.bank.Entity")
-public class Application {
+public class BankApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(BankApplication.class, args);
 	}
 }
